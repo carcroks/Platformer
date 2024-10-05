@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "main.h"
+#include "raylib.h"
 
 
 class Character
@@ -16,27 +16,10 @@ public:
 	const int charHeight = 50;
 
 	const float GroundFriction = 0.8;
-	int xspeed = 0;
+	float xspeed = 0;
 
-	Character(int xpos, int ypos) {
-		x = xpos;
-		y = ypos;
-	}
+	Character(int xpos, int ypos);
 
-	void Update() {
-		if (IsKeyDown(KEY_A))
-		{
-			xspeed -= 5;
-		}
-		if (IsKeyDown(KEY_D))
-		{
-			xspeed += 5;
-		}
-
-		xspeed *= GroundFriction;
-		x += xspeed;
-
-		DrawRectangle(x, y, charWidth, charHeight, Color{ 127, 106, 79, 255 });
-	}
+	void Update();
 };
 

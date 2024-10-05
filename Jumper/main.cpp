@@ -1,8 +1,5 @@
 #include "main.h"
-#include "raylib.h"
-#include "Character.h"
 
-using namespace std;
 
 int main() {
 
@@ -20,11 +17,18 @@ int main() {
 
     Character perso(screenWidth / 2 - charWidth / 2, screenHeight - charHeight);
 
+    room r;
+
+    Block b(10, 10);
+
+    r.Add(b);
+
     while (WindowShouldClose() == false) {
         BeginDrawing();
         ClearBackground(Color{ 255,255,255,255 });
 
         perso.Update();
+        r.Draw();
 
         EndDrawing();
     }
