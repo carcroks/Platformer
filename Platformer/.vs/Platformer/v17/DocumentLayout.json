@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\platformer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:platformer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|c:\\users\\alexandre le gal\\documents\\github\\platformer\\platformer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F0CD0A5-0255-43A5-AE11-973CCD0C126E}|Platformer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E01568B9-553B-4738-8121-26DA9C721926}|test.vcxproj|solutionrelative:main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,117 +30,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Grid.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Grid.cs",
-              "RelativeDocumentMoniker": "Grid.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Grid.cs",
-              "RelativeToolTip": "Grid.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwC0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T20:26:18.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Block.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Block.cs",
-              "RelativeDocumentMoniker": "Block.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Block.cs",
-              "RelativeToolTip": "Block.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T20:26:01.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Object.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Object.cs",
-              "RelativeDocumentMoniker": "Object.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Object.cs",
-              "RelativeToolTip": "Object.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wC8AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T20:25:39.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-21T09:30:34.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
+              "DocumentIndex": 2,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.cpp",
+              "RelativeDocumentMoniker": "Character.cpp",
+              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.cpp",
+              "RelativeToolTip": "Character.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:30:33.411Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T10:31:03.865Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.cs",
-              "RelativeDocumentMoniker": "Character.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.cs",
-              "RelativeToolTip": "Character.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwC4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:30:17.291Z",
+              "Title": "Character.h",
+              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.h",
+              "RelativeDocumentMoniker": "Character.h",
+              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Character.h",
+              "RelativeToolTip": "Character.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-05T10:31:01.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T10:23:36.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Platformer",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Platformer.csproj",
-              "RelativeDocumentMoniker": "Platformer.csproj",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\Platformer.csproj",
-              "RelativeToolTip": "Platformer.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-21T09:13:42.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-21T09:13:27.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:13:23.47Z",
-              "EditorCaption": ""
+              "Title": "main.h",
+              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.h",
+              "RelativeDocumentMoniker": "main.h",
+              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Platformer\\main.h",
+              "RelativeToolTip": "main.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-29T10:50:09.558Z"
             }
           ]
         }
