@@ -1,6 +1,0 @@
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\test\x64\Debug\raylib.dll
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\test\x64\Debug\glfw3.dll
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\test\Platformer\x64\Debug\test.vcxproj.Up2Date
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Platformer\x64\Debug\raylib.dll
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Platformer\x64\Debug\glfw3.dll
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Platformer\Platformer\x64\Debug\test.vcxproj.Up2Date

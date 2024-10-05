@@ -1,0 +1,3 @@
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\x64\Debug\raylib.dll
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\x64\Debug\glfw3.dll
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Jumper\x64\Debug\Jumper.vcxproj.Up2Date
