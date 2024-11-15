@@ -4,7 +4,6 @@ using namespace std;
 #include <raylib.h>
 #include "Character.h"
 #include "room.h"
-#include "Obj.h"
 #include "Block.h"
 
 using namespace std;

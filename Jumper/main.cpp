@@ -19,7 +19,7 @@ int main() {
 
     room r;
 
-    Block b(10, 10);
+    IDrawable* b = new Block(10, 10);
 
     r.Add(b);
 

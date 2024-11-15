@@ -3,7 +3,7 @@
 
 
 #include <vector>
-#include "Obj.h"
+#include "IDrawable.h"
 
 using namespace std;
 
@@ -11,12 +11,13 @@ using namespace std;
 class room
 {
 public:
-	vector<Obj> objects;
+	vector<IDrawable*> objects;
 
 	room();
 
 	void Draw();
 
-	void Add(Obj o);
+	void Add(IDrawable* o);
+
 };
 

@@ -1,5 +1,4 @@
 ﻿  Block.cpp
-  Obj.cpp
   main.cpp
 C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(18,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
   (compiler le fichier source 'main.cpp')

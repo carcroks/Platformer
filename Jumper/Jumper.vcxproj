@@ -129,15 +129,17 @@
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="Character.h" />
+    <ClInclude Include="Grapple.h" />
+    <ClInclude Include="IDrawable.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="Obj.h" />
     <ClInclude Include="room.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Grapple.cpp" />
+    <ClCompile Include="IDrawable.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Obj.cpp" />
     <ClCompile Include="room.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
