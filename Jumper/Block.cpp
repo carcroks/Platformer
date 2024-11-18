@@ -1,4 +1,5 @@
 #include "Block.h"
+#include <stdlib.h>
 
 
 Block::Block(int posx, int posy){
@@ -7,7 +8,7 @@ Block::Block(int posx, int posy){
 	y = posy;
 
 	//create box
-	Rectangle test = Rectangle{100,100,100,100};
+	myBox = Rectangle{x,y,width,width};
 
 	//load sprite
 	Image sprite = LoadImage("Assets/block.png");
@@ -17,5 +18,33 @@ Block::Block(int posx, int posy){
 }
 
 void Block::Draw() {
-	DrawTexture(texture, unit * x, unit * y, WHITE);
+	DrawTexture(texture, width * x, width * y, WHITE);
+}
+
+bool Block::checkCollision(Rectangle box) {
+	return (CheckCollisionRecs(box, myBox));
+}
+
+Vector2 Block::GetCollision(Rectangle hitbox) {
+	Vector2 objCenter{ myBox.GetX() + myBox.GetWidth() / 2 , myBox.GetY() + myBox.GetHeight() / 2};
+
+	Vector2 GrapCenter{ hitbox.GetX() + hitbox.GetWidth() / 2 , hitbox.GetY() + hitbox.GetHeight() / 2 };
+
+	Vector2 line = GrapCenter - objCenter;
+
+	Vector2 lineCopy{ abs(line.x), abs(line.y) };
+
+	Vector2 res;
+
+	float factor;
+
+	if (lineCopy.x > lineCopy.y)
+		float factor = width / lineCopy.x;
+	else
+		float factor = width / lineCopy.y;
+
+	res.SetX(objCenter.x - line.x * factor);
+	res.SetY(objCenter.y - line.y * factor);
+
+	return res;
 }

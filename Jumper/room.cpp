@@ -7,24 +7,6 @@ room::room() {
 }
 
 void room::Draw() {
-	/*for (auto& object : objects)
-	{
-
-		Block* b = dynamic_cast<Block*>(&object);
-		if (b == nullptr)
-			cout << "null" << endl;
-
-		b->Draw();
-	}*/
-
-	/*for (int i = 0; i < objects.size(); i++)
-	{
-		Block* b = dynamic_cast<Block*>(objects.at(i));
-		if (b)
-			b->Draw();
-		else
-			cout << "test" << endl;
-	}*/
 
 	for (int i = 0; i < objects.size(); i++) {
 		objects.at(i)->Draw();
@@ -33,4 +15,26 @@ void room::Draw() {
 
 void room::Add(IDrawable* o) {
 	objects.push_back(o);
+}
+
+
+
+//A fusionner
+bool room::CheckGrappleCollision(Rectangle hitbox) {
+	for (int i = 0; i < objects.size(); i++) {
+		if (objects.at(i)->checkCollision(hitbox))
+			return true;
+	}
+	return false;
+}
+
+
+//Récupérer le résultat de celui qui à l'aire la plus grande (sinon bogue)
+Vector2 room::GetCollision(Rectangle hitbox) {
+	Vector2 res;
+	for (int i = 0; i < objects.size(); i++) {
+		if (objects.at(i)->checkCollision(hitbox))
+			res = objects.at(i)->GetCollision(hitbox);
+	}
+	return res;
 }

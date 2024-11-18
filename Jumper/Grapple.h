@@ -13,15 +13,19 @@ class Grapple
 
 	enum GrappleState state;
 
+	room myRoom;
+
 	Vector2 direction;
 
 	//create box
 	Rectangle hitbox;
 
-	Grapple(float x, float y, Vector2 direction);
+	Grapple(float x, float y, Vector2 direction, room r);
 
 	void Update();
 
-	Vector2 CHeckCollision();
+	bool CheckCollision();
+
+	Vector2 GetCollision();
 };
 

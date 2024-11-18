@@ -4,6 +4,7 @@ Character::Character(int xpos, int ypos) {
 	x = xpos;
 	y = ypos;
 	state = NORMAL;
+	myRoom = room;
 }
 
 void Character::Update() {
@@ -29,6 +30,7 @@ void Character::Update() {
 void Character::startGrapple(Vector2 mousePos) {
 	state = GRAPPLING;
 	Vector2 direction = getDirFromMousePos(10, mousePos);
+	myGrapple = Grapple(x, y, direction, myRoom);
 
 
 }

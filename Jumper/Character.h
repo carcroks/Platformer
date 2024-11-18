@@ -3,6 +3,7 @@
 #include <cmath>
 #include "raylib.h"
 #include "Grapple.h"
+#include "room.h"
 
 
 enum CharacterState {
@@ -18,6 +19,10 @@ public:
 	int y;
 
 	enum CharacterState state;
+
+	room myRoom;
+
+	Grapple myGrapple;
 	
 
 
@@ -27,7 +32,7 @@ public:
 	const float GroundFriction = 0.8;
 	float xspeed = 0;
 
-	Character(int xpos, int ypos);
+	Character(int xpos, int ypos, room myRoom);
 
 	void Update();
 

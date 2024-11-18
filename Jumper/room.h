@@ -19,5 +19,9 @@ public:
 
 	void Add(IDrawable* o);
 
+	bool CheckGrappleCollision(Rectangle hitbox);
+
+	Vector2 GetCollision(Rectangle hitbox);
+
 };
 

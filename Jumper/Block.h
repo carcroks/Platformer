@@ -11,11 +11,17 @@ public:
 
 	int x;
 	int y;
-	const int unit = 10;
+	const int width = 50;
+
+	Rectangle myBox;
 
 	explicit Block(int posx, int posy);
 
 	void Draw() override;
+
+	bool checkCollision(Rectangle box) override;
+
+	Vector2 GetCollision(Rectangle hitbox) override;
 
 };
 
