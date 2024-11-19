@@ -15,12 +15,14 @@ class Grapple
 
 	room myRoom;
 
+	Character myCharacter;
+
 	Vector2 direction;
 
 	//create box
 	Rectangle hitbox;
 
-	Grapple(float x, float y, Vector2 direction, room r);
+	Grapple(float x, float y, Vector2 direction, room r, Character c);
 
 	void Update();
 
