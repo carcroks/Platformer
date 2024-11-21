@@ -15,11 +15,25 @@ void Grapple::Update() {
 	if (state == FLYING) {
 		xpos = xpos + direction.x;
 		ypos = ypos + direction.y;
+
+		if (CheckCollision()) {
+			state = ATTACHED;
+			Vector2 loc = GetCollision();
+			xpos = loc.x;
+			ypos = loc.y;
+			//myCharacter.startPulling(loc);
+		}
+
 		hitbox.SetX(xpos - 10);
 		hitbox.setY(ypos - 10);
 	}
-	DrawLine((int)x, (int)y, c.x, c.y, Color{ 255, 0, 0, 255 });
-	DrawRectangleRec(hitbox, Color{ 255, 0, 0, 255 })
+
+	DrawLine((int)xpos, (int)ypos, c.x, c.y, Color{ 255, 0, 0, 255 });
+
+	if (state = FLYING)
+		DrawRectangleRec(hitbox, Color{ 255, 0, 0, 255 });
+	else
+		DrawRectangleRec(hitbox, Color{ 0, 0, 255, 255 });
 	
 }
 

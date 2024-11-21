@@ -24,10 +24,11 @@ class Grapple
 
 	Grapple(float x, float y, Vector2 direction, room r, Character c);
 
-	void Update();
-
 	bool CheckCollision();
 
 	Vector2 GetCollision();
+
+public:
+	void Update();
 };
 

@@ -8,7 +8,8 @@
 
 enum CharacterState {
 	GRAPPLING,
-	NORMAL
+	NORMAL,
+	PULLING
 };
 
 class Character
@@ -22,14 +23,18 @@ public:
 
 	room myRoom;
 
-	Grapple myGrapple;
+	Grapple* myGrapple;
 	
 
 
 	const int charWidth = 30;
 	const int charHeight = 50;
 
+	const int grappleSpeed = 5;
+	const int pullingSpeed = 5;
+
 	const float GroundFriction = 0.8;
+	float yspeed = 0;
 	float xspeed = 0;
 
 	Character(int xpos, int ypos, room myRoom);
@@ -38,7 +43,9 @@ public:
 
 	void startGrapple(Vector2 mousePos);
 
-	Vector2 getDirFromMousePos(int speed, Vector2 mousePos);
+	void startPulling();
+
+	Vector2 getDirFromLocation(int speed, Vector2 mousePos);
 
 };
 
