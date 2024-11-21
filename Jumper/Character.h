@@ -2,7 +2,6 @@
 
 #include <cmath>
 #include "raylib.h"
-#include "Grapple.h"
 #include "room.h"
 
 
@@ -10,6 +9,11 @@ enum CharacterState {
 	GRAPPLING,
 	NORMAL,
 	PULLING
+};
+
+enum hookState {
+	FLYING,
+	ATTACHED
 };
 
 class Character
@@ -23,15 +27,11 @@ public:
 
 	room myRoom;
 
-	Grapple* myGrapple;
-	
-
-
 	const int charWidth = 30;
 	const int charHeight = 50;
 
-	const int grappleSpeed = 5;
-	const int pullingSpeed = 5;
+	const int grappleSpeed = 12;
+	const int pullingSpeed = 8;
 
 	const float GroundFriction = 0.8;
 	float yspeed = 0;
@@ -47,5 +47,31 @@ public:
 
 	Vector2 getDirFromLocation(int speed, Vector2 mousePos);
 
+	bool OnGround();
+
+
+
+	//Grapple
+
+	float hookxpos;
+	float hookypos;
+
+	enum hookState myHookState;
+
+	Character* myCharacter;
+
+	Vector2 hookDirection;
+
+	Rectangle HookHitbox;
+
+	const int HookHitboxSize = 20;
+
+	bool CheckHookCollision();
+
+	Vector2 GetHookCollision();
+
+	void UpdateHook();
+	
+	Vector2 ancrage;
 };
 

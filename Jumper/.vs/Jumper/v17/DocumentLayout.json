@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Grapple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Grapple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\IDrawable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:IDrawable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:Block.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\IDrawable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|solutionrelative:IDrawable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1838F0C-E288-4905-AC58-6EFF25EA65A0}|Jumper.vcxproj|C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,63 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Grapple.cpp",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.cpp",
-              "RelativeDocumentMoniker": "Grapple.cpp",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.cpp",
-              "RelativeToolTip": "Grapple.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T23:08:48.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Grapple.h",
-              "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.h",
-              "RelativeDocumentMoniker": "Grapple.h",
-              "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Grapple.h",
-              "RelativeToolTip": "Grapple.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-15T22:28:10.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IDrawable.h",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\IDrawable.h",
               "RelativeDocumentMoniker": "IDrawable.h",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\IDrawable.h",
               "RelativeToolTip": "IDrawable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-19T10:39:34.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Block.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.cpp",
               "RelativeDocumentMoniker": "Block.cpp",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.cpp",
               "RelativeToolTip": "Block.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T15:30:57.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Block.h",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Block.h",
               "RelativeDocumentMoniker": "Block.h",
@@ -118,43 +84,44 @@
               "RelativeToolTip": "Block.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-05T13:08:08.496Z"
+              "WhenOpened": "2024-10-05T13:08:08.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "room.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.cpp",
               "RelativeDocumentMoniker": "room.cpp",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.cpp",
               "RelativeToolTip": "room.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T15:26:48.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "room.h",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.h",
               "RelativeDocumentMoniker": "room.h",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\room.h",
               "RelativeToolTip": "room.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAADgvw0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-05T12:57:52.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Character.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.cpp",
               "RelativeDocumentMoniker": "Character.cpp",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.cpp",
               "RelativeToolTip": "Character.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T11:47:34.645Z",
               "EditorCaption": ""
@@ -167,27 +134,27 @@
               "RelativeDocumentMoniker": "Character.h",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\Character.h",
               "RelativeToolTip": "Character.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADgvzEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-05T11:47:27.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T11:45:12.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "main.h",
               "DocumentMoniker": "C:\\Users\\Alexandre Le Gal\\Documents\\GitHub\\Platformer\\Jumper\\main.h",
               "RelativeDocumentMoniker": "main.h",

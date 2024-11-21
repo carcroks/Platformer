@@ -8,7 +8,7 @@ Block::Block(int posx, int posy){
 	y = posy;
 
 	//create box
-	myBox = Rectangle{x,y,width,width};
+	myBox = Rectangle{(float)x * width, (float)y * width, (float)width, (float)width};
 
 	//load sprite
 	Image sprite = LoadImage("Assets/block.png");
@@ -26,25 +26,25 @@ bool Block::checkCollision(Rectangle box) {
 }
 
 Vector2 Block::GetCollision(Rectangle hitbox) {
-	Vector2 objCenter{ myBox.GetX() + myBox.GetWidth() / 2 , myBox.GetY() + myBox.GetHeight() / 2};
+	Vector2 objCenter{ myBox.x + myBox.width / 2 , myBox.y + myBox.height / 2};
 
-	Vector2 GrapCenter{ hitbox.GetX() + hitbox.GetWidth() / 2 , hitbox.GetY() + hitbox.GetHeight() / 2 };
+	Vector2 GrapCenter{ hitbox.x + hitbox.width / 2 , hitbox.y + hitbox.height / 2 };
 
-	Vector2 line = GrapCenter - objCenter;
+	Vector2 line = { GrapCenter.x - objCenter.x, GrapCenter.y - objCenter.y };
 
-	Vector2 lineCopy{ abs(line.x), abs(line.y) };
+	Vector2 lineCopy{ abs((int)line.x), abs((int)line.y) };
 
 	Vector2 res;
 
-	float factor;
+	float factor = 0;
 
 	if (lineCopy.x > lineCopy.y)
 		float factor = width / lineCopy.x;
 	else
 		float factor = width / lineCopy.y;
 
-	res.SetX(objCenter.x - line.x * factor);
-	res.SetY(objCenter.y - line.y * factor);
+	res.x = (objCenter.x - line.x * factor);
+	res.y = (objCenter.y - line.y * factor);
 
 	return res;
 }

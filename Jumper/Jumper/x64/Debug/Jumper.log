@@ -1,9 +1,14 @@
-﻿  Block.cpp
+﻿  Character.cpp
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(36,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+  (compiler le fichier source 'Character.cpp')
+  
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(51,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(52,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(68,14): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
   main.cpp
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(18,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(36,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
   (compiler le fichier source 'main.cpp')
   
-  room.cpp
   Génération de code en cours...
   Jumper.vcxproj -> C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\x64\Debug\Jumper.exe
   'pwsh.exe' n'est pas reconnu en tant que commande interne

@@ -12,10 +12,9 @@ int main() {
     const int charHeight = 50;
 
 
+
     InitWindow(screenWidth, screenHeight, "Platformer");
     SetTargetFPS(60);
-
-    Character perso(screenWidth / 2 - charWidth / 2, screenHeight - charHeight);
 
     room r;
 
@@ -23,12 +22,15 @@ int main() {
 
     r.Add(b);
 
+    Character perso(screenWidth / 2 - charWidth / 2, screenHeight - charHeight / 2, r);
+
+
     while (WindowShouldClose() == false) {
         BeginDrawing();
         ClearBackground(Color{ 255,255,255,255 });
 
-        perso.Update();
         r.Draw();
+        perso.Update();
 
         EndDrawing();
     }
