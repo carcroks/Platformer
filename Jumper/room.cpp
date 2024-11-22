@@ -20,7 +20,7 @@ void room::Add(IDrawable* o) {
 
 
 //A fusionner
-bool room::CheckGrappleCollision(Rectangle hitbox) {
+bool room::CheckCollision(Rectangle hitbox) {
 	for (int i = 0; i < objects.size(); i++) {
 		if (objects.at(i)->checkCollision(hitbox))
 			return true;

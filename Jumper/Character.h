@@ -27,6 +27,8 @@ public:
 
 	room myRoom;
 
+	Rectangle hitbox;
+
 	const int charWidth = 30;
 	const int charHeight = 50;
 
@@ -48,6 +50,8 @@ public:
 	Vector2 getDirFromLocation(int speed, Vector2 mousePos);
 
 	bool OnGround();
+
+	bool CheckCollision();
 
 
 

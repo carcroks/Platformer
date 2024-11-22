@@ -5,6 +5,7 @@ Character::Character(int xpos, int ypos, room r) {
 	y = ypos;
 	state = NORMAL;
 	myRoom = r;
+	hitbox = Rectangle{ x - charWidth / 2, y - charHeight / 2};
 }
 
 void Character::Update() {
@@ -75,6 +76,15 @@ bool Character::OnGround() {
 	return y == 0;
 }
 
+bool Character::CheckCollision() {
+	Rectangle futureHitbox = { x + xspeed - charWidth/2, y + yspeed - charHeight / 2}
+	if (myRoom.checkCollision(futureHitbox)) {
+		xspeed = 0;
+		yspeed = 0;
+	}
+
+}
+
 //hook treatment
 
 void Character::UpdateHook() {
@@ -104,7 +114,7 @@ void Character::UpdateHook() {
 }
 
 bool Character::CheckHookCollision() {
-	return myRoom.CheckGrappleCollision(HookHitbox);
+	return myRoom.CheckCollision(HookHitbox);
 }
 
 Vector2 Character::GetHookCollision() {
