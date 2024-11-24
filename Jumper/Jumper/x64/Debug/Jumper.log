@@ -1,15 +1,10 @@
 ﻿  Character.cpp
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(36,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(38,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
   (compiler le fichier source 'Character.cpp')
   
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(51,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(52,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(68,14): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
-  main.cpp
-C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.h(36,31): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-  (compiler le fichier source 'main.cpp')
-  
-  Génération de code en cours...
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(60,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(61,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\Character.cpp(77,14): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
   Jumper.vcxproj -> C:\Users\Alexandre Le Gal\Documents\GitHub\Platformer\Jumper\x64\Debug\Jumper.exe
   'pwsh.exe' n'est pas reconnu en tant que commande interne
   ou externe, un programme exécutable ou un fichier de commandes.

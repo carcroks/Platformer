@@ -1,11 +1,14 @@
 #include "Character.h"
 
+#include <iostream>
+using namespace std;
+
 Character::Character(int xpos, int ypos, room r) {
 	x = xpos;
 	y = ypos;
 	state = NORMAL;
 	myRoom = r;
-	hitbox = Rectangle{ x - charWidth / 2, y - charHeight / 2};
+	hitbox = Rectangle{ (float)x - charWidth / 2, (float)y - charHeight / 2};
 }
 
 void Character::Update() {
@@ -26,6 +29,11 @@ void Character::Update() {
 			xspeed = 0;
 			yspeed = 0;
 		}
+	}
+
+	if (CheckCollision()) {
+		xspeed = 0;
+		yspeed = 0;
 	}
 
 	if (state == GRAPPLING)
@@ -72,17 +80,14 @@ Vector2 Character::getDirFromLocation(int speed, Vector2 Pos) {
 	return Vector2{ xdir, ydir };
 }
 
+//à régler
 bool Character::OnGround() {
 	return y == 0;
 }
 
 bool Character::CheckCollision() {
-	Rectangle futureHitbox = { x + xspeed - charWidth/2, y + yspeed - charHeight / 2}
-	if (myRoom.checkCollision(futureHitbox)) {
-		xspeed = 0;
-		yspeed = 0;
-	}
-
+	Rectangle futureHitbox = { x + xspeed - charWidth / 2, y + yspeed - charHeight / 2 };
+	return (myRoom.CheckCollision(futureHitbox));
 }
 
 //hook treatment
