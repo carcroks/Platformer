@@ -22,5 +22,7 @@ public:
 
 	Vector2 GetCollision(Rectangle hitbox);
 
+	bool OnGround(Vector2 loc1, Vector2 loc2);
+
 };
 

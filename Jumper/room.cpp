@@ -38,3 +38,11 @@ Vector2 room::GetCollision(Rectangle hitbox) {
 	}
 	return res;
 }
+
+bool room::OnGround(Vector2 loc1, Vector2 loc2) {
+	for (int i = 0; i < objects.size(); i++) {
+		if (objects.at(i)->OnGround(loc1, loc2))
+			return true;
+	}
+	return false;
+}

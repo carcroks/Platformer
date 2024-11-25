@@ -12,7 +12,7 @@ Character::Character(int xpos, int ypos, room r) {
 }
 
 void Character::Update() {
-	if (state != PULLING && OnGround()) {
+	if (state != PULLING) {
 		if (IsKeyDown(KEY_A))
 		{
 			xspeed -= 5;
@@ -22,6 +22,9 @@ void Character::Update() {
 			xspeed += 5;
 		}
 		xspeed *= GroundFriction;
+
+		if (OnGround() && yspeed < 0)
+			yspeed = 0;
 	}
 
 	else if (state == PULLING) {
@@ -30,6 +33,8 @@ void Character::Update() {
 			yspeed = 0;
 		}
 	}
+
+
 
 	if (CheckCollision()) {
 		xspeed = 0;
@@ -82,7 +87,9 @@ Vector2 Character::getDirFromLocation(int speed, Vector2 Pos) {
 
 //à régler
 bool Character::OnGround() {
-	return y == 0;
+	if (y <= 0)
+		return true;
+	return myRoom.OnGround(Vector2{ (float)x - charWidth / 2, (float)y + charHeight / 2 }, Vector2{ (float)x + charWidth / 2, (float)y + charHeight / 2 });
 }
 
 bool Character::CheckCollision() {

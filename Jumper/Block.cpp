@@ -48,3 +48,10 @@ Vector2 Block::GetCollision(Rectangle hitbox) {
 
 	return res;
 }
+
+bool Block::OnGround(Vector2 loc1, Vector2 loc2) {
+	float xmin = (float)x * width;
+	float xmax = xmin + width;
+	float yBon = (float)y * width;
+	return ((loc1.x >= xmin && loc1.x <= xmax && loc1.y == yBon) || (loc2.x >= xmin && loc2.x <= xmax && loc2.y == yBon));
+}
